@@ -417,7 +417,7 @@ body.active {
   }
   .Header .Navigation .trans {
     position: fixed;
-    transform: translate(100%);
+    transform: translatex(100%);
     transition: 0.4s;
     height: 65vh;
     width: 25%;
