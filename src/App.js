@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/Metabnb">
             <HeaderSection />
             <Main />
           </Route>

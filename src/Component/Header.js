@@ -16,7 +16,6 @@ const Header = () => {
         if (open == "trans") {
             setOpen("trans trans_back");
         }
-        
     }
 
     document.querySelector(".exit").addEventListener('click', function() {
@@ -42,7 +41,7 @@ const Header = () => {
                     <img className="exit" src={exit} alt="exit" />
                         
                     <ul>
-                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/Metabnb">Home</Link></li>
                         <li><Link to="/Place">Place to stay</Link></li>
                         <li><a href="#">NFTs</a></li>
                         <li><a href="#">Community</a></li>
