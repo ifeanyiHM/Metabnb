@@ -10,12 +10,17 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
 
-    // const [open, setOpen] = useState("trans");
-    // const handleClick = () => {
-    //     if (open == "trans") {
-    //         setOpen("trans trans_back");
-    //     }
-    // }
+    const [open, setOpen] = useState("trans");
+    const handleClick = () => {
+        if (open == "trans") {
+            setOpen("trans trans_back");
+        }
+    }
+    const handleClick2 = () => {
+        if (open == "trans trans_back") {
+            setOpen("trans");
+        }
+    }
 
     // document.querySelector(".exit").addEventListener('click', function() {
     //     setOpen("trans");
@@ -29,6 +34,7 @@ const Header = () => {
     // document.querySelector(".exit").addEventListener('click', function() {
     //     openNav.classList.remove("trans_back");
     // });
+
 
 
     const [modal, setModal] = useState("true");
@@ -46,8 +52,8 @@ const Header = () => {
         <div className="Header">
            <div className="Navigation">
                 <img className="logo" src={logo} alt="logo" />
-                <div className="trans"/*{open}*/>
-                    <img className="exit" src={exit} alt="exit" />
+                <div className={open}>
+                    <img className="exit" onClick={handleClick2} src={exit} alt="exit" />
                         
                     <ul>
                         <li><Link to="/Metabnb">Home</Link></li>
@@ -61,7 +67,7 @@ const Header = () => {
                     <p>Connect wallet</p>
                 </div>
                
-                <img className="media_nav" /*onClick={handleClick}*/ src={nav} alt="nav_menu" />
+                <img className="media_nav" onClick={handleClick} src={nav} alt="nav_menu" />
            </div>
 
             {!modal && (
