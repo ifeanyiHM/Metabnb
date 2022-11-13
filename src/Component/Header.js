@@ -22,21 +22,6 @@ const Header = () => {
         }
     }
 
-    // document.querySelector(".exit").addEventListener('click', function() {
-    //     setOpen("trans");
-    // })
-
-    // const openNav = document.querySelector(".trans");
-    // document.querySelector(".media_nav").addEventListener('click', function() {
-    //     openNav.classList.add("trans_back");
-    // });
-
-    // document.querySelector(".exit").addEventListener('click', function() {
-    //     openNav.classList.remove("trans_back");
-    // });
-
-
-
     const [modal, setModal] = useState("true");
     const toggleModal = () => {
         setModal(!modal);
