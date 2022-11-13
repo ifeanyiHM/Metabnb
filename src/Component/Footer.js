@@ -20,8 +20,6 @@ const Footer = () => {
                     item.style.display = 'none';
                 }  
             }
-        
-           
         };
     });
 
