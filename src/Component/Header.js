@@ -11,16 +11,16 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
 
-    const [open, setOpen] = useState("trans");
-    const handleClick = () => {
-        if (open == "trans") {
-            setOpen("trans trans_back");
-        }
-    }
+    // const [open, setOpen] = useState("trans");
+    // const handleClick = () => {
+    //     if (open == "trans") {
+    //         setOpen("trans trans_back");
+    //     }
+    // }
 
-    document.querySelector(".exit").addEventListener('click', function() {
-        setOpen("trans");
-    })
+    // document.querySelector(".exit").addEventListener('click', function() {
+    //     setOpen("trans");
+    // })
 
     const [modal, setModal] = useState("false");
     const toggleModal = () => {
@@ -37,7 +37,7 @@ const Header = () => {
         <div className="Header">
            <div className="Navigation">
                 <img className="logo" src={logo} alt="logo" />
-                <div className={open}>
+                <div className="trans"/*{open}*/>
                     <img className="exit" src={exit} alt="exit" />
                         
                     <ul>
@@ -52,7 +52,7 @@ const Header = () => {
                     <p>Connect wallet</p>
                 </div>
                
-                <img className="media_nav" onClick={handleClick} src={nav} alt="nav_menu" />
+                <img className="media_nav" /*onClick={handleClick}*/ src={nav} alt="nav_menu" />
            </div>
 
             {modal && (
