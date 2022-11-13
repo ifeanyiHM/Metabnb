@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Metabnb/static/css/main.9f7c57ac.css",
-    "main.js": "/Metabnb/static/js/main.b040c23d.js",
+    "main.js": "/Metabnb/static/js/main.2fda064a.js",
     "static/media/interior.svg": "/Metabnb/static/media/interior.37e0315bcb8f8525cb287d80ee1bcfc3.svg",
     "static/media/home.svg": "/Metabnb/static/media/home.26235f4c1bcacc822da6088d0f5fa06f.svg",
     "static/media/Frame3.svg": "/Metabnb/static/media/Frame3.037a7905e6e76e5b60be1706d793bc83.svg",
@@ -45,10 +45,10 @@
     "static/media/nav.svg": "/Metabnb/static/media/nav.dbc96fb832bc6d75bbcb0809a0eaf768.svg",
     "static/media/mexit.svg": "/Metabnb/static/media/mexit.619c8b7ea4422a9a8647a77a4c9668b2.svg",
     "main.9f7c57ac.css.map": "/Metabnb/static/css/main.9f7c57ac.css.map",
-    "main.b040c23d.js.map": "/Metabnb/static/js/main.b040c23d.js.map"
+    "main.2fda064a.js.map": "/Metabnb/static/js/main.2fda064a.js.map"
   },
   "entrypoints": [
     "static/css/main.9f7c57ac.css",
-    "static/js/main.b040c23d.js"
+    "static/js/main.2fda064a.js"
   ]
 }
