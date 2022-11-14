@@ -23,7 +23,7 @@ const Main = () => {
             <h2>Inspiration for your next adventure</h2>
             <div className="main_img">
                 <div className="img_card">
-                    <img src={frame1} alt="frame1" />
+                    <img className="frame" src={frame1} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
                         <span className="spant">IMBT per night</span>
@@ -41,7 +41,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="img_card">
-                    <img src={frame2} alt="frame1" />
+                    <img className="frame" src={frame2} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
                         <span className="spant">IMBT per night</span>
@@ -59,7 +59,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="img_card">
-                    <img src={frame3} alt="frame1" />
+                    <img className="frame" src={frame3} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
                         <span className="spant">IMBT per night</span>
@@ -77,7 +77,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="img_card">
-                    <img src={frame4} alt="frame1" />
+                    <img className="frame" src={frame4} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
                         <span className="spant">IMBT per night</span>
@@ -95,7 +95,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="img_card">
-                    <img src={frame5} alt="frame1" />
+                    <img className="frame" src={frame5} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
                         <span className="spant">IMBT per night</span>
@@ -113,7 +113,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="img_card">
-                    <img src={frame6} alt="frame1" />
+                    <img className="frame" src={frame6} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
                         <span className="spant">IMBT per night</span>
@@ -131,7 +131,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="img_card">
-                    <img src={frame7} alt="frame1" />
+                    <img className="frame" src={frame7} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
                         <span className="spant">IMBT per night</span>
@@ -149,7 +149,7 @@ const Main = () => {
                     </div>
                 </div>
                 <div className="img_card">
-                    <img src={frame8} alt="frame1" />
+                    <img className="frame" src={frame8} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
                         <span className="spant">IMBT per night</span>
