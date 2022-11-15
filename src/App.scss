@@ -39,6 +39,10 @@ body.active{
                 font-size: 1.39vw;
                 font-weight: 400;
                 line-height: 24.98px;
+
+                &:hover{
+                    color: #A02279;
+                }
             }
 
             .btnt{
@@ -752,7 +756,8 @@ body.active{
         }
     
         .main_img{
-            margin: 0 13.49vw;
+            max-width: 70%;
+            margin: 0 auto;
             grid-template-columns: repeat(1, 1fr);
             grid-gap: 30px;
 
@@ -817,7 +822,7 @@ body.active{
 
             .img_card{
                 .frame{
-                    width: 67.5vw;
+                    width: 59.5vw;
                 }
             }
         }
@@ -847,4 +852,65 @@ body.active{
             }
         }
     }
+}
+
+@media screen and (max-width: 450px) {
+    .Header{
+        .Navigation{
+            .logo{
+                width: 35vw;
+            }
+
+            .btnn{
+                width: 120px;
+                font-size: 12px;
+            }
+        }
+    }
+
+    .HeaderSection{
+        .sales{
+            div{
+                input{
+                    width: 45vw;
+                    height: 40px;
+                }
+    
+                span{
+                    height: 41px;
+
+                }
+            }
+        }
+    }
+
+    .Main{
+        .main_header{
+            padding: 10px 20px;
+
+            img{
+                width: 100px;
+            }
+        }
+    }
+
+   .Footer{
+        .footer_logo{
+
+            .foot_logo{
+                width: 100px;
+            }
+
+            div{
+                img{
+                    padding-right: 5px;
+                }
+            }
+
+            p{
+                font-size: 16px;
+                margin-top: 5px;
+            }
+        }
+   }
 }
