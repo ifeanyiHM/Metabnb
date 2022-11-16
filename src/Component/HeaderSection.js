@@ -1,6 +1,17 @@
 import home from "./Icon/home.svg";
+import Aos from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 const HeaderSection = () => {
+
+    // Open source code: Animate on scroll(aos) 
+    // https://github.com/michalsnik/aos#animations
+    
+    useEffect(() => {
+        Aos.init({duration: 2000});
+    }, [])
+
     return ( 
         <div className="HeaderSection">
             <div className="sales">
@@ -11,7 +22,7 @@ const HeaderSection = () => {
                     <span><a href="#">Search</a></span>
                 </div>
             </div>
-            <div className="sales_img">
+            <div data-aos="fade" className="sales_img">
                 <img src={home} alt="home" />
             </div>
         </div>

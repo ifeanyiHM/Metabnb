@@ -16,8 +16,16 @@ import place14 from "./Images/place14.svg";
 import place15 from "./Images/place15.svg";
 import place16 from "./Images/place16.svg";
 import vector from "./Icon/Vector.svg";
+import Aos from "aos"
+import "aos/dist/aos.css"
+import { useEffect } from "react";
+
 
 const PlaceToStay = () => {
+    useEffect(() => {
+        Aos.init({duration: 2000});
+    }, [])
+
     return ( 
         <div className="PlaceToStay">
             <div className="place">
@@ -37,7 +45,7 @@ const PlaceToStay = () => {
                     </div>
             </div>
             <div className="main_img">
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place1} alt="frame" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -55,7 +63,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place2} alt="frame" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -73,7 +81,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place3} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -91,7 +99,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place4} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -109,7 +117,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place5} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -127,7 +135,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place6} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -145,7 +153,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place7} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -163,7 +171,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place8} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -181,7 +189,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place9} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -199,7 +207,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place10} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -217,7 +225,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place11} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -235,7 +243,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place12} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -253,7 +261,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place13} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -271,7 +279,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place14} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -289,7 +297,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place15} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>
@@ -307,7 +315,7 @@ const PlaceToStay = () => {
                         <img src={star} alt="rating" />
                     </div>
                 </div>
-                <div className="img_card">
+                <div data-aos="fade-up" className="img_card">
                     <img className="frame" src={place16} alt="frame1" />
                     <div className="span_div">
                         <span>Desert King</span>

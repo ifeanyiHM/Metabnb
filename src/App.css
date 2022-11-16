@@ -10,7 +10,14 @@ body.active {
 }
 
 .Header {
-  margin: 2.99% 6.94% 0 6.94%;
+  padding: 2.99% 6.94% 1% 6.94%;
+  position: fixed;
+  max-width: 90%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #fff;
+  z-index: 999;
 }
 .Header .Navigation {
   display: flex;
@@ -129,7 +136,7 @@ body.active {
   flex-direction: row;
   padding: 0;
   gap: 6.88%;
-  margin: 8.67% 8.26% 4.65% 6.94%;
+  margin: 14.99% 8.26% 4.65% 6.94%;
 }
 .HeaderSection .sales {
   display: flex;
@@ -426,7 +433,7 @@ body.active {
     position: fixed;
     transform: translatex(100%);
     transition: 0.4s;
-    height: 65vh;
+    height: 65%;
     width: 25%;
     top: 0;
     right: 0;
@@ -552,7 +559,7 @@ body.active {
     font-size: 14px;
   }
   .Header .Navigation .trans {
-    height: 50vh;
+    height: 50%;
     width: 40%;
     border-radius: 0;
   }
