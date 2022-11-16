@@ -22,6 +22,10 @@ import { useEffect } from "react";
 
 
 const PlaceToStay = () => {
+
+    // Open source code: Animate on scroll(aos) 
+    // https://github.com/michalsnik/aos#animations
+    
     useEffect(() => {
         Aos.init({duration: 2000});
     }, [])
